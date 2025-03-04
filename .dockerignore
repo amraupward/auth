@@ -1,0 +1,34 @@
+# Ignore the Go workspace and dependencies
+vendor/
+bin/
+pkg/
+
+# Ignore temporary files
+*.log
+*.out
+*.swp
+
+# Ignore build artifacts
+*.exe
+*.o
+*.a
+*.so
+*.dll
+
+# Ignore compiled Go files
+*.test
+*.cover
+*.prof
+
+# Ignore the Go cache and module downloads
+go.sum
+go.mod
+
+# Ignore editor and OS-specific files
+.DS_Store
+*.bak
+*.swp
+.idea/
+.vscode/
+*.iml
+
